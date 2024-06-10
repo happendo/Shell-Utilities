@@ -10,5 +10,7 @@
 - **hdInUsing.sh:** Ter no sistema o pacote *iotop*. Para plena execução é necessário permissão de ROOT para executar, devido à necessidade do iotop;
 - **netInUsing.sh:** Ter no sistema o pacote *ifstat*. Não é necessário permissão de ROOT para execução;
 - **shut.sh:** Ter no sistemas ambos pacotes mencionados acima. É necessário permissão de ROOT para executar o script **hdInUsing.sh** e para poder desligar a máquina.
+## Aviso:
+**É necessário adaptações** no **alias shutd** e no **script shut.sh** para que funcionem no **seu** sistema, porém são poucas.
 ## Testado no sistema:
 - Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-112-generic x86_64).
